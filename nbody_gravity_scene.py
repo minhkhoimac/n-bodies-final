@@ -90,11 +90,11 @@ class NBodySimulation:
 
 class NBodyGravityScene(InteractiveScene):
     def construct(self):
-        masses = [10.0, 20.0, 30.0, 40.0]
-        initial_positions = [[-10.0, 10.0, 1.0], [0.0, 0.0, 2.0], [10.0, 10.0, -1.0], [10.0, 10.0, 20.0]]
-        initial_velocities = [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
+        masses = [10.0, 20.0, 30.0]
+        initial_positions = [[-10.0, 10.0, 1.0], [0.0, 0.0, 2.0], [10.0, 10.0, -1.0]]
+        initial_velocities = [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
         total_time = 1000
-        time_step = 1.0
+        time_step = 0.5
         G = 1.0
         sim_time = 20
 
