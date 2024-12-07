@@ -20,6 +20,11 @@ This project is contains some scripts for a flask web application for users to i
 
 The file ```simulation.py``` contains the main code for the simulation. The file ```app.py``` contains the flask application that will run the simulation. The file ```2d_sim.py``` contains a code to render a matplotlib graph of a 2d gravitational problem, where there is no movement along the z-axis. 
 
+You can run any manimgl script by running the following command in the terminal:
+```bash
+manimgl <script_name>.py class_name
+```
+
 ## About the Google drive
 
 Here is the link: https://drive.google.com/drive/folders/1b_pEJhSkM3VrCMvc1XUQxSckjki9HvQK?usp=sharing
