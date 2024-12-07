@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Body Simulation</title>
+</head>
+<body>
+    <h1>N-Body Gravity Simulation</h1>
+    <form action="/run_simulation" method="post">
+        <label for="masses">Masses (comma-separated, kg):</label><br>
+        <input type="text" id="masses" name="masses" value="10, 20, 30"><br><br>
+
+        <label for="positions">Initial Positions (semicolon-separated):</label><br>
+        <input type="text" id="positions" name="positions" value="-10, 10, 1; 0, 0, 2; 10, 10, -1"><br><br>
+
+        <label for="velocities">Initial Velocities (semicolon-separated):</label><br>
+        <input type="text" id="velocities" name="velocities" value="0, 0, 0; 0, 0, 0; 0, 0, 0"><br><br>
+
+        <label for="total_time">Total Time (integer seconds):</label><br>
+        <input type="text" id="total_time" name="total_time" value="1000"><br><br>
+
+        <label for="time_step">Time Step (real seconds):</label><br>
+        <input type="text" id="time_step" name="time_step" value="0.5"><br><br>
+
+        <label for="simulation_time">How long to run simulation (integer seconds):</label><br>
+        <input type="text" id="simulation_time" name="simulation_time" value="20"><br><br>
+
+        <label for="G">Gravitational Constant G:</label><br>
+        <input type="text" id="G" name="G" value="1"><br><br>
+
+        <button type="submit">Run Simulation</button>
+    </form>
+</body>
+</html>
