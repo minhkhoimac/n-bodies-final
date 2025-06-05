@@ -13,7 +13,7 @@ manimgl <script_name>.py class_name
 
 ## About the Google drive
 
-Here is the link: https://drive.google.com/drive/folders/1b_pEJhSkM3VrCMvc1XUQxSckjki9HvQK?usp=sharing
+Here is the link: https://drive.google.com/drive/folders/1ur0KGvbgVUG_na62CcwGsjq6I3gYNDh4?usp=drive_link
 
 The images from the video presentation with 4-bodies and their energies are in there. The initial values are:
 masses = [10, 20, 30, 40] 
